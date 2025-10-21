@@ -1,0 +1,76 @@
+/* Estilos para el sidebar administrativo - Diseño exacto */
+.sidebar-admin {
+    min-width: 320px;
+    max-width: 320px;
+    width: 320px;
+}
+
+.sidebar-nav-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    transition: background-color 0.2s ease;
+    border-radius: 0;
+}
+
+.sidebar-nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav-item.active {
+    background-color: #1e40af !important;
+    border-radius: 0;
+}
+
+.sidebar-nav-item.active:hover {
+    background-color: #1e40af !important;
+}
+
+/* Asegurar que los textos largos no se rompan */
+.sidebar-text {
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Estilos para los iconos */
+.sidebar-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .sidebar-admin {
+        min-width: 280px;
+        max-width: 280px;
+        width: 280px;
+    }
+}
+
+/* Barra blanca para el estado activo */
+.sidebar-nav-item.active::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #ffffff;
+    border-radius: 0;
+}

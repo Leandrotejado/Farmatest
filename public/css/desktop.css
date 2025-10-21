@@ -1,0 +1,165 @@
+/* ========================================
+   ESTILOS DE ESCRITORIO - FARMACIA TEST
+   Estilos específicos para dispositivos de escritorio (min-width: 1025px)
+   ======================================== */
+
+/* Estilos para escritorio (min-width: 1025px) */
+@media (min-width: 1025px) {
+    /* Mapa en escritorio */
+    #map {
+        height: 500px !important;
+    }
+    
+    .leaflet-container {
+        height: 500px !important;
+    }
+    
+    /* Contenedor principal */
+    .container {
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+    }
+    
+    /* Header en escritorio */
+    header {
+        position: sticky !important;
+        top: 0 !important;
+    }
+    
+    /* Navegación en escritorio */
+    #main-nav {
+        position: static !important;
+        background: transparent !important;
+        backdrop-filter: none !important;
+        border-top: none !important;
+    }
+    
+    #main-nav ul {
+        display: flex !important;
+        flex-direction: row !important;
+        padding: 0 !important;
+    }
+    
+    /* Espaciado para escritorio */
+    .py-20 {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    
+    /* Flexbox en escritorio */
+    .flex.space-x-6 {
+        flex-direction: row !important;
+        gap: 1.5rem !important;
+    }
+    
+    .flex.space-x-4 {
+        flex-direction: row !important;
+        gap: 1rem !important;
+    }
+    
+    /* Botones en escritorio */
+    .flex.justify-center.space-x-4.mt-6 {
+        flex-direction: row !important;
+        gap: 1rem !important;
+    }
+    
+    .flex.justify-center.space-x-4.mt-6 button {
+        width: auto !important;
+        margin: 0 !important;
+    }
+    
+    /* Contador de farmacias en escritorio */
+    .bg-gradient-to-r.from-green-100.to-blue-100 .flex {
+        flex-direction: row !important;
+        gap: 1rem !important;
+    }
+    
+    .bg-gradient-to-r.from-green-100.to-blue-100 .text-gray-400 {
+        display: block !important;
+    }
+    
+    /* Tamaños de texto para escritorio */
+    .text-5xl {
+        font-size: 3rem !important;
+    }
+    
+    .text-3xl {
+        font-size: 1.875rem !important;
+    }
+    
+    .text-xl {
+        font-size: 1.25rem !important;
+    }
+    
+    .text-lg {
+        font-size: 1.125rem !important;
+    }
+    
+    /* Padding para escritorio */
+    .px-8 {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    
+    .py-3 {
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+    }
+    
+    /* Estilos para encabezados y leyendas en escritorio */
+    .text-center.mb-8 {
+        padding: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    
+    .flex.flex-col.sm\\:flex-row.justify-center.items-center.space-y-2.sm\\:space-y-0.sm\\:space-x-4.text-sm.mb-8 {
+        padding: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    
+    /* Estilos para el título del mapa en escritorio */
+    section#map .text-center.mb-8 h2 {
+        padding: 1rem 0 !important;
+    }
+    
+    section#map .text-center.mb-8 {
+        padding: 2rem !important;
+        margin: 0 auto 2rem auto !important;
+        max-width: 100% !important;
+    }
+    
+    .flex.flex-col.sm\\:flex-row.justify-center.items-center.space-y-2.sm\\:space-y-0.sm\\:space-x-4.text-sm.mb-8 {
+        padding: 2rem !important;
+        margin: 0 auto 2rem auto !important;
+        max-width: 100% !important;
+    }
+    
+    /* Contador de farmacias en escritorio */
+    .bg-gradient-to-r.from-green-100.to-blue-100 {
+        padding: 1rem !important;
+        margin: 1rem 0 !important;
+    }
+}
+
+/* Estilos para pantallas grandes (min-width: 1440px) */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px !important;
+    }
+    
+    #map {
+        height: 600px !important;
+    }
+    
+    .leaflet-container {
+        height: 600px !important;
+    }
+    
+    .text-5xl {
+        font-size: 3.5rem !important;
+    }
+    
+    .text-3xl {
+        font-size: 2rem !important;
+    }
+}

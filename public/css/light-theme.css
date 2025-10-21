@@ -1,0 +1,257 @@
+/* ========================================
+   TEMA CLARO - FARMACIA TEST
+   Estilos específicos para el tema claro
+   ======================================== */
+
+/* Colores del menú desplegable en tema claro */
+.dropdown-content {
+    background-color: #1e40af;
+}
+
+.dropdown-content a:hover {
+    background-color: #3b82f6;
+}
+
+/* Colores del encabezado y leyenda en tema claro */
+.text-center.mb-8 {
+    background: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+/* Estilos específicos para el título de la sección del mapa en tema claro */
+section#map .text-center.mb-8 h2 {
+    background: #ffffff !important;
+    color: #1f2937 !important;
+}
+
+/* Colores de texto en tema claro */
+.text-gray-800 {
+    color: #1f2937 !important;
+}
+
+.text-gray-600 {
+    color: #4b5563 !important;
+}
+
+.text-gray-500 {
+    color: #6b7280 !important;
+}
+
+/* Estilos para el mapa en tema claro */
+#map {
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Estilos para contador de farmacias en tema claro */
+.bg-gradient-to-r.from-green-100.to-blue-100 {
+    background: linear-gradient(to right, #dcfce7, #dbeafe) !important;
+    border: 1px solid #d1d5db !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Estilos para el loading del mapa en tema claro */
+.map-loading::after {
+    background: rgba(255, 255, 255, 0.95);
+    color: #3b82f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+}
+
+/* Estilos para el body en tema claro */
+body {
+    background-color: #f9fafb !important;
+    color: #1f2937 !important;
+}
+
+/* Estilos para el header en tema claro */
+header {
+    background: linear-gradient(to right, #2563eb, #1d4ed8) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Estilos para contenedores en tema claro */
+.container {
+    background-color: transparent !important;
+}
+
+/* Estilos para cards en tema claro */
+.bg-white {
+    background-color: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Estilos para botones en tema claro */
+.btn-primary {
+    background-color: #3b82f6 !important;
+    border-color: #3b82f6 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
+}
+
+/* Estilos para enlaces en tema claro */
+a {
+    color: #2563eb !important;
+}
+
+a:hover {
+    color: #1d4ed8 !important;
+}
+
+/* Estilos para inputs en tema claro */
+input, textarea, select {
+    background-color: #ffffff !important;
+    border: 1px solid #d1d5db !important;
+    color: #1f2937 !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Estilos para el hero section en tema claro */
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: #ffffff !important;
+}
+
+/* Estilos para las secciones en tema claro */
+section {
+    background-color: #ffffff !important;
+}
+
+/* Estilos para el footer en tema claro */
+footer {
+    background-color: #f3f4f6 !important;
+    border-top: 1px solid #e5e7eb !important;
+}
+
+/* Estilos para las notificaciones en tema claro */
+.notification {
+    background-color: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Estilos para los badges en tema claro */
+.badge {
+    background-color: #dbeafe !important;
+    color: #1e40af !important;
+    border: 1px solid #bfdbfe !important;
+}
+
+/* Estilos para los iconos en tema claro */
+.icon {
+    color: #6b7280 !important;
+}
+
+.icon:hover {
+    color: #374151 !important;
+}
+
+/* Estilos específicos para Tailwind en tema claro */
+.bg-gray-50 {
+    background-color: #f9fafb !important;
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-gray-900 {
+    color: #111827 !important;
+}
+
+.text-gray-700 {
+    color: #374151 !important;
+}
+
+.text-blue-600 {
+    color: #2563eb !important;
+}
+
+.text-blue-700 {
+    color: #1d4ed8 !important;
+}
+
+.bg-blue-600 {
+    background-color: #2563eb !important;
+}
+
+.bg-blue-700 {
+    background-color: #1d4ed8 !important;
+}
+
+.bg-blue-800 {
+    background-color: #1e40af !important;
+}
+
+.border-gray-200 {
+    border-color: #e5e7eb !important;
+}
+
+.border-gray-300 {
+    border-color: #d1d5db !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Estilos para gradientes en tema claro */
+.from-blue-600 {
+    --tw-gradient-from: #2563eb !important;
+}
+
+.to-blue-800 {
+    --tw-gradient-to: #1e40af !important;
+}
+
+.from-green-100 {
+    --tw-gradient-from: #dcfce7 !important;
+}
+
+.to-blue-100 {
+    --tw-gradient-to: #dbeafe !important;
+}
+
+/* Estilos para hover en tema claro */
+.hover\:bg-blue-700:hover {
+    background-color: #1d4ed8 !important;
+}
+
+.hover\:bg-blue-600:hover {
+    background-color: #2563eb !important;
+}
+
+.hover\:text-blue-600:hover {
+    color: #2563eb !important;
+}
+
+/* Estilos para focus en tema claro */
+.focus\:ring-blue-500:focus {
+    --tw-ring-color: #3b82f6 !important;
+}
+
+.focus\:border-blue-500:focus {
+    border-color: #3b82f6 !important;
+}
